@@ -22,7 +22,7 @@ pip install whats_app_bot
 ## Usage
 
 ```python
-import WhatsAppBot
+from whats_app_bot import *
 
 bot = WhatsAppBot()
 bot.send_text_to('username','message','numberoftimes')
