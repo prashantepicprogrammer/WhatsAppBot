@@ -34,5 +34,3 @@ class WhatsAppBot:
             send = self.driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[3]')
             send.click()
 
-bot = WhatsAppBot()
-bot.send_text_to('Dannnngi' , 'Keeep doin what ever you are doing it is just an test :D' , 5)
